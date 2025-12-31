@@ -1,0 +1,73 @@
+rules:
+  # 直接连接特定的域名
+  - DOMAIN,gstore.val.manlaxy.com
+
+  # - DOMAIN-SUFFIX,yixr.uno
+  - DOMAIN-SUFFIX,chatboxai.app
+  - DOMAIN-SUFFIX,ingest.global-contribute.live-video.net
+  - DOMAIN-SUFFIX,immersivetranslate.com
+  - DOMAIN-SUFFIX,adblockplus.org
+  - DOMAIN-SUFFIX,download.nvidia.com
+  - DOMAIN-SUFFIX,gyg.si
+  - DOMAIN-KEYWORD,hxhelmet
+  - DOMAIN-SUFFIX,oray.com
+  - DOMAIN-SUFFIX,ys7.com
+  - DOMAIN-SUFFIX,ys7.com
+  - DOMAIN-SUFFIX,xitongzhijia.net
+  - DOMAIN-SUFFIX,sdkjjt.com
+  - DOMAIN-SUFFIX,pcmoe.net
+  - DOMAIN-SUFFIX,qudou100.com
+  - DOMAIN-SUFFIX,papegames.com
+  - DOMAIN-SUFFIX,haowallpaper.com
+  - DOMAIN-SUFFIX,hanzijs.com
+  - DOMAIN-SUFFIX,bathome.net
+  - DOMAIN-SUFFIX,ali213.net
+  - DOMAIN-SUFFIX,22biqu.com
+  - DOMAIN-KEYWORD,weixin
+  - DOMAIN-SUFFIX,jb51.net
+  - DOMAIN-SUFFIX,duote.com
+  - DOMAIN-SUFFIX,gamersky.com
+  - DOMAIN-SUFFIX,gamer520.com
+  - DOMAIN-SUFFIX,lanzouc.com
+  - DOMAIN-SUFFIX,lanzouj.com
+  - DOMAIN-SUFFIX,dmpdmp.com
+  - DOMAIN-SUFFIX,caimogu.cc
+  - DOMAIN-SUFFIX,steampy.com
+  - DOMAIN-SUFFIX,juij.fun
+  - DOMAIN-SUFFIX,cmbchina.com
+  - DOMAIN-SUFFIX,zdxt.net
+  - DOMAIN-SUFFIX,allhistory.com
+  - DOMAIN-SUFFIX,niaowoclub.com
+  - DOMAIN-SUFFIX,znds.com
+  - DOMAIN-SUFFIX,zhuiyingmao6.com
+  - DOMAIN-SUFFIX,yuque.com
+  - DOMAIN-SUFFIX,it120.cc
+  - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-SUFFIX,hxcard.top
+  - DOMAIN-SUFFIX,cn-north-1.jdcloud-oss.com
+  - DOMAIN-SUFFIX,bejson.com
+  - DOMAIN-SUFFIX,emojiall.com
+  - DOMAIN-SUFFIX,onlineconvertfree.com
+  - DOMAIN-SUFFIX,ttsmaker.com
+  - DOMAIN-SUFFIX,builtwith.com
+  - DOMAIN-SUFFIX,linkz.ai
+  
+# 天气API
+  - DOMAIN-SUFFIX,open-meteo.com
+
+  - DOMAIN-SUFFIX,windisco.com
+  - DOMAIN-SUFFIX,deqixs.com
+  - DOMAIN-SUFFIX,bootgraph.com
+  - DOMAIN-SUFFIX,cy227.com
+  - DOMAIN-SUFFIX,txcb.net
+  - DOMAIN-SUFFIX,qisuu.cc
+  - DOMAIN-SUFFIX,sdszpdj.com
+  - DOMAIN-SUFFIX,gepc.vip
+  - DOMAIN-SUFFIX,wacom.com
+  - DOMAIN-SUFFIX,zdassets.com
+  - DOMAIN-SUFFIX,zendesk.com
+  - DOMAIN-SUFFIX,zopim.com
+  - DOMAIN-SUFFIX,zencdn.net
+  - DOMAIN-SUFFIX,code.jquery.com
+  - DOMAIN-SUFFIX,moondroplab.tech
+  - DOMAIN-SUFFIX,diagrams.net
