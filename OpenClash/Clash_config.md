@@ -6,6 +6,17 @@
 
 ## 更新日志
 
+### 2026-1-22
+在防火墙`关闭硬件流量卸载`,可以使连接节点的设备nat类型变成Fullcone
+
+![alt text](./img/image_26122.png)
+
+![alt text](./img/image_26122-1.png)
+
+![alt text](./img/image_26122-2.png)
+
+`等待测试ps5nat类型`
+
 ### 2025-08-27
 
 增加了 `/tmp/etc/openclash` 的路径备份，名为 `tmp-bak`。
