@@ -1,21 +1,26 @@
-## AdGuardHome 安装目录需要定期清理的文件
-
-以下路径需要定期清理：
-
-- `/usr/bin/AdGuardHome/data/filters/`
-- `/usr/bin/AdGuardHome/data/`
-
-### 需要清理的文件类型
-
-**`.json.1` 文件**：历史日志文件，占用空间大
-
-定期删除脚本：
-
+## 修改存放日志位置即可解决空间不足问题
 ```bash
-50 5 */5 * * [ -f /usr/bin/AdGuardHome/data/querylog.json.1 ] && rm /usr/bin/AdGuardHome/data/querylog.json.1
+vim /etc/AdGuarnHome.yaml
+```
+```
+querylog:
+  dir_path: "/tmp"    # 只指向 /tmp 目录
+  ...
+statistics:
+  dir_path: "/tmp"    # 只指向 /tmp 目录
 ```
 
-**`txt.old` 文件**：历史规则文件，占用空间大，需要定期删除
+## ~~AdGuardHome 安装目录需要定期清理的文件~~
+
+~~以下路径需要定期清理：~~
+
+~~- `/usr/bin/AdGuardHome/data/`~~
+
+### ~~需要清理的文件类型~~
+
+~~**`.json.1` 文件**：历史日志文件，占用空间大~~
+
+~~**`txt.old` 文件**：历史规则文件，占用空间大，需要定期删除~~
 
 ---
 
