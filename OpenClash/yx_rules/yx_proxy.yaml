@@ -45,4 +45,4 @@ payload:
   - DOMAIN-SUFFIX,usbdev.ru
   - DOMAIN-SUFFIX,search-sharp.com
   - DOMAIN-SUFFIX,gofile.io
-  # - DOMAIN-SUFFIX,account.sony.com
+  - DOMAIN-SUFFIX,account.sony.com
